@@ -1,7 +1,8 @@
 # python-pi-approx
 This program uses five methods to approximate pi, midpoint approximation of the area of a semicircle of radius 1, trapezoidal approximation of this semicircle, and a combination of the two in a Simpson’s approximation. Leibniz approximator for pi is also included as it is considered the simplest way to calculate the constant. The Monte Carlo method was also implemented.
 # Usage
-- Requires matplotlib
+Requires matplotlib
+
 When main.py is run it will prompt the user to enter a number “n”. This number represents the number of iterations the program will use for each method to approximate pi, the higher the number, the closer to pi you will get, but the program will require more time and memory.
 ## Output
 Upon entering a value for “n”, the program may have to load for a moment depending on the size of “n”. After loading is complete the user will see three graphs:
